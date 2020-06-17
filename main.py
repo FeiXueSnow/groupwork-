@@ -1,5 +1,5 @@
 #GroupWork!
 
-x = "Hello, World!
-
-print(x * 2)
+print("Hello, World!")
+num = input("pls input a number")
+print(num)
