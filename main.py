@@ -1,3 +1,5 @@
 #GroupWork!
 
-print("Hello, World!")
+x = "Hello, World!
+
+print(x * 2)
