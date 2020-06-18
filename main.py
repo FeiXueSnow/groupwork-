@@ -24,19 +24,16 @@ print(f'3:\t\t{team}')
 
 # 4. remove the third element (index 2) in the list: two ways
 # 4.1 by index 2
-team.remove("R")
+del team[2]
 print(f'4.1:\t{team}')
 # 4.2 by value 'R'
-  # add your answer at the beginning of this line
+team.remove("R")
 print(f'4.2:\t{team}')
 
 # 5. pop an element from the list
 # 5.1 pop the last element and print it out, in one line of code
-  # add your answer at the beginning of this line
+print(team.pop())
 print(f'5.1:\t{team}')
-# 5.1 pop the second element (index 1) and print it out, in one line of code
-  # add your answer at the beginning of this line
-print(f'5.2:\t{team}')
 
 # 6. get the length of the list
 print(f'6:\t\t{team} has', 'length', 'items')  # replace 'length' by a function call for length
