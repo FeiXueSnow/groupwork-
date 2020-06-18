@@ -7,7 +7,7 @@ print('Original list is', ORIGINAL)
 print('\n')
 
 # make a copy of the original list
-team = ORIGINAL[0:5]
+team = ORIGINAL[0:6]
 
 # 1. change individual element: change the last element to 'X'
 team[5] = "X"
@@ -15,7 +15,7 @@ print(f'1:\t\t{team}')
 
 # 2. add a new element 'Z' at the end of list
   # add your answer at the beginning of this line
-team.append(z)
+team.append("Z")
 print(f'2:\t\t{team}')
 
 # 3. add a new element 'B' at the 2nd position (index 1)
@@ -32,7 +32,7 @@ print(f'4.2:\t{team}')
 
 # 5. pop an element from the list
 # 5.1 pop the last element and print it out, in one line of code
-print(team.pop())
+print("\n" + team.pop())
 print(f'5.1:\t{team}')
 
 # 6. get the length of the list
