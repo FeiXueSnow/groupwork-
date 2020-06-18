@@ -24,7 +24,7 @@ print(f'3:\t\t{team}')
 
 # 4. remove the third element (index 2) in the list: two ways
 # 4.1 by index 2
-  # add your answer at the beginning of this line
+team.remove("R")
 print(f'4.1:\t{team}')
 # 4.2 by value 'R'
   # add your answer at the beginning of this line
