@@ -4,10 +4,10 @@ ORIGINAL = ['M', 'A', 'R', 'S', 'T', 'V']
 print('Original list is', ORIGINAL)
 
 # print an emtpy line
-print('')
+print('\n')
 
 # make a copy of the original list
-team = ORIGINAL[:]
+team = ORIGINAL[0:5]
 
 # 1. change individual element: change the last element to 'X'
   # add your answer at the beginning of this line
