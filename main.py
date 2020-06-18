@@ -54,9 +54,9 @@ team.reverse()
 print(f'8:\t\t{team}')
 
 # 9. print all items in the list, one item in each line
-print('9:')
-# add your answer in next two lines
-
+print('9:\n')
+for i in team:
+  print("\n", team)
 
 
 # end
