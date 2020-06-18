@@ -50,7 +50,7 @@ print(f'7.2:\t{team}')
 team = ORIGINAL[0:5]
 
 # 8. reverse the order of the list
-  # add your answer at the beginning of this line
+team.reverse()
 print(f'8:\t\t{team}')
 
 # 9. print all items in the list, one item in each line
