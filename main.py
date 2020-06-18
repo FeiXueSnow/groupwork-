@@ -36,7 +36,7 @@ print(team.pop())
 print(f'5.1:\t{team}')
 
 # 6. get the length of the list
-print(f'6:\t\t{team} has', 'length', 'items')  # replace 'length' by a function call for length
+print(f'6:\t\t{team} has', len(team), 'items')
 
 # 7. sort the list
 # 7.1 sort the list alphabetically
