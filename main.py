@@ -40,10 +40,10 @@ print(f'6:\t\t{team} has', len(team), 'items')
 
 # 7. sort the list
 # 7.1 sort the list alphabetically
-  # add your answer at the beginning of this line
+team.sort()
 print(f'7.1:\t{team}')
 # 7.2 sort the list in reverse alphabetical order
-  # add your answer at the beginning of this line
+team.reverse()
 print(f'7.2:\t{team}')
 
 # reset list
