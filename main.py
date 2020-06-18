@@ -19,7 +19,7 @@ team.append(z)
 print(f'2:\t\t{team}')
 
 # 3. add a new element 'B' at the 2nd position (index 1)
-  # add your answer at the beginning of this line
+team.insert(1, "B")
 print(f'3:\t\t{team}')
 
 # 4. remove the third element (index 2) in the list: two ways
