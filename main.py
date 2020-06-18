@@ -15,7 +15,7 @@ print(f'1:\t\t{team}')
 
 # 2. add a new element 'Z' at the end of list
   # add your answer at the beginning of this line
-  team.append(z)
+team.append(z)
 print(f'2:\t\t{team}')
 
 # 3. add a new element 'B' at the 2nd position (index 1)
