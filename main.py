@@ -47,7 +47,7 @@ team.reverse()
 print(f'7.2:\t{team}')
 
 # reset list
-team = ORIGINAL[:]
+team = ORIGINAL[0:5]
 
 # 8. reverse the order of the list
   # add your answer at the beginning of this line
