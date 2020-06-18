@@ -10,7 +10,7 @@ print('\n')
 team = ORIGINAL[0:5]
 
 # 1. change individual element: change the last element to 'X'
-  # add your answer at the beginning of this line
+team[5] = "X"
 print(f'1:\t\t{team}')
 
 # 2. add a new element 'Z' at the end of list
